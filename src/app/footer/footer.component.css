@@ -1,0 +1,44 @@
+/* Conteneur principal du footer */
+.footer {
+    background-color: #151217; /* Couleur sombre pour le fond */
+    color: #F9D0A3; /* Texte clair */
+    padding: 20px 10px;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif; /* Police pour le texte courant */
+  }
+  
+  /* Texte principal dans le footer */
+  .footer .footer-text {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #FDD90B; /* Jaune pour le texte principal */
+  }
+  
+  /* Conteneur des liens sociaux */
+  .footer .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espace entre les icônes */
+  }
+  
+  /* Liens sociaux */
+  .footer .social-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #F9D0A3; /* Couleur claire pour les liens */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Effets au survol des liens */
+  .footer .social-link:hover {
+    color: #DA001E; /* Rouge au survol */
+    transform: scale(1.1); /* Légère mise en avant */
+  }
+  
+  /* Icônes ou emojis des réseaux sociaux */
+  .footer .social-link::before {
+    content: "• "; /* Un petit style devant chaque lien */
+    color: #FDD90B; /* Couleur jaune */
+  }
+  

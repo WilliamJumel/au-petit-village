@@ -1,0 +1,77 @@
+/* Styles généraux pour la page produit */
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+  }
+  
+  /* Grille pour organiser les détails des produits */
+  .product-details-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Style pour chaque produit */
+  .product-detail-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-detail-item h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #DA001E;
+  }
+  
+  .product-detail-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #646464;
+  }
+  
+  .product-detail-item .price {
+    font-weight: bold;
+    color: #FDD90B;
+    margin: 15px 0;
+  }
+  
+  /* Placeholders pour les logos des produits */
+  .product-placeholder {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Couleurs spécifiques aux produits */
+  .product-placeholder.asterix {
+    background-color: #FDD90B;
+  }
+  
+  .product-placeholder.obelix {
+    background-color: #151217;
+  }
+  
+  .product-placeholder.panoramix {
+    background-color: #DA001E;
+  }
+  

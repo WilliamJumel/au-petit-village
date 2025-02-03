@@ -1,0 +1,107 @@
+/* Styles pour la section d'introduction existante */
+.home-intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .home-intro h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+  }
+  
+  .home-intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #646464;
+  }
+  
+  .btn-learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles pour la section catalogue */
+  .catalog {
+    margin: 40px auto;
+    max-width: 1000px;
+  }
+  
+  .catalog h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  .catalog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .catalog-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Placeholders pour les produits */
+  .product-placeholder {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Styles personnalisés pour chaque produit */
+  .product-placeholder.asterix {
+    background-color: #FDD90B;
+  }
+  
+  .product-placeholder.obelix {
+    background-color: #151217;
+  }
+  
+  .product-placeholder.panoramix {
+    background-color: #DA001E;
+  }
+  
+  .catalog-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #DA001E;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #FDD90B;
+    margin-bottom: 10px;
+  }
+  

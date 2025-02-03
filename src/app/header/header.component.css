@@ -1,0 +1,54 @@
+/* Conteneur principal du header */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FDD90B; /* Couleur principale */
+    border-bottom: 4px solid #DA001E; /* Bande rouge en bas */
+    font-family: 'Bubbleboddy Neue', sans-serif; /* Police pour les titres */
+  }
+  
+  /* Logo stylisé */
+  .header-nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #151217; /* Couleur sombre */
+    text-decoration: none;
+    text-transform: uppercase; /* Met en majuscules */
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav .logo:hover {
+    color: #DA001E; /* Couleur rouge au survol */
+  }
+  
+  /* Conteneur des liens de navigation */
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Espace entre les liens */
+  }
+  
+  /* Liens de navigation */
+  .nav-links a {
+    font-size: 1rem;
+    font-family: 'Comfortaa', sans-serif; /* Police pour le texte courant */
+    color: #151217; /* Couleur sombre */
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #DA001E; /* Fond rouge au survol */
+    color: white; /* Texte blanc au survol */
+  }
+  
+  /* Lien actif */
+  .nav-links a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #DA001E; /* Indique le lien actif */
+  }
+  

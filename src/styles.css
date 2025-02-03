@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #F9D0A3;
+    color: #151217;
+  }
+  
+  /* Titres */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bubbleboddy Neue', sans-serif;
+    color: #DA001E;
+  }
+  
+  /* Liens */
+  a {
+    color: #FDD90B;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #DA001E;
+    text-decoration: underline;
+  }
+  
+  /* Boutons */
+  button {
+    background-color: #FDD90B;
+    color: #151217;
+    font-family: 'Comfortaa', sans-serif;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #DA001E;
+    color: #FFFFFF;
+  }
+  
+  /* Classes utilitaires */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  
